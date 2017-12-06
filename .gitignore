@@ -18,4 +18,10 @@
 
 .byebug_history
 
-config/initializers/omniauth.rb
+*.swp
+*.swo
+
+# Ignore application configuration
+/config/application.yml
+
+to_do.md

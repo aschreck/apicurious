@@ -1,9 +1,9 @@
-class SessionsController < ActionController::Base
+class SessionsController < ApplicationController 
 	def create 
 		@user = User.find_or_create_by_auth(auth_hash)
 		if @user 
-			session[:user_id] = @user.id
-			redirect_to "/"
+			session[:user_id] = @user.uid
+			redirect_to dashboard_index_path 
 		else 
 			redirect_to "/"
 		end 
