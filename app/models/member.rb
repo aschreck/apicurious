@@ -2,7 +2,7 @@ require './app/services/github_service.rb'
 
 class Member
 
-	attr_reader :name, :nickname, :email, :followers, :following
+	attr_reader :name, :nickname, :email, :followers, :following, :repos
 
   def initialize(attrs = {})
 		@name      = attrs[:name]
@@ -11,7 +11,7 @@ class Member
 		@token     = attrs[:token]
 		@image_url = attrs[:avatar_url]
 		@followers_url = attrs[:followers_url]
-    @following_url = attrs[:following_url]
+		@following_url = attrs[:following_url]
   end 
 
 
@@ -27,9 +27,11 @@ class Member
 		@followers = self.github.get_followers
 		
 		@following = self.github.get_following
-    # followers = JSON.parse(followers_response.body)
-    # @followers = followers.map {|follower| [follower["login"], follower["avatar_url"]]} 
 	end 	
+
+	def add_repos
+		@repos = github.get_repos
+	end 
 
 		def github
 			GithubService.new 

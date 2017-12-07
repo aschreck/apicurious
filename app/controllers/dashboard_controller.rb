@@ -2,6 +2,7 @@ class DashboardController < ApplicationController
   def index
     member = Member.create_member
     member.add_followers
+    member.add_repos
     @member = member
     
     # repo_names = JSON.parse(repo_response.body).map {|repo| repo["name"]}

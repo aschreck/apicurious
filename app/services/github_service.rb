@@ -1,3 +1,5 @@
+require 'github_repo'
+
 class GithubService
 
 	
@@ -25,6 +27,13 @@ class GithubService
 		response.map {|follower| [follower[:login], follower[:avatar_url]]}
 	end 
 	
+	def get_repos #return an array of repo objects
+		response = get_json('/users/aschreck/repos')
+		response.map do |repository| 
+			Githubrepo.new(repository[:name])
+		end 
+	end 
+
 	private 
 	
 	attr_reader :conn

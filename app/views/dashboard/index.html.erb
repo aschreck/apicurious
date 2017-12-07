@@ -9,7 +9,7 @@
   <a href="/">Following</a></p>
 </div>
 
-<h1> Welcome <%=@member.nickname%></h1>
+<h1 class="name"> Welcome <%=@member.nickname%></h1>
 <h1> Followers: </h1>
 <% @member.followers.each do |follower|%>
   <p><%=follower[0]%></p>
@@ -22,3 +22,11 @@
   <img src=<%= leader[1] %> height="40" width= "40">
 <% end %>
 <img src=''> 
+
+<h1> Repositories: </h1>
+
+<ul>
+  <%@member.repos.each do |repo| %>
+    <li><%= repo.name%></li>
+  <% end %>
+</ul>
