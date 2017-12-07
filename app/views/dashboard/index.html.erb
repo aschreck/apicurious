@@ -3,20 +3,22 @@
 </div>
 
 <div class="lowerNavbar"> 
-  <a href="/">Repositories</a><p><%=%></p>
-  <a href="/">Stars</a><p><%=@stars%></p>
+  <a href="/">Repositories</a><p></p>
+  <a href="/">Stars</a><p></p>
   <a href="/">Followers</a>
   <a href="/">Following</a></p>
 </div>
 
 <h1> Welcome <%=@member.nickname%></h1>
+<h1> Followers: </h1>
 <% @member.followers.each do |follower|%>
   <p><%=follower[0]%></p>
-  <img src=<%= follower[1] %>>
+  <img src=<%= follower[1] %> height="40" width= "40">
 <% end %>
 
+<h1> Following: </h1>
 <% @member.following.each do |leader|%>
   <p><%=leader[0]%></p>
-  <img src=<%= leader[1] %>>
+  <img src=<%= leader[1] %> height="40" width= "40">
 <% end %>
-<img src=<%= current_user.image_url %>> 
+<img src=''> 

@@ -1,24 +1,35 @@
 class GithubService
 
+	
 	def initialize 
 		@conn = Faraday.new(url: "https://api.github.com") do |faraday|
 			faraday.headers["X-API-Key"] = ENV["GITHUB_API_KEY"]
       faraday.adapter Faraday.default_adapter
 		end 
 	end 
-
-	def create_member(user_nickname)
-		#I want to send a request to the address of the user who uses the app,
-		#this 
-		get_json("/#{user_nickname}")
-
-		#this method needs to return a hash of information that I want to use
-		#to populate the Member object. 
+	
+	def member_data
+		user_details = get_json("/users/aschreck")
 	end
+	
+	def get_followers
+		#appended_url = url + "access_token=#{token}"
+		response = get_json('/users/aschreck/followers')
+		response.map {|follower| [follower[:login], follower[:avatar_url]]}
+	end 
 
+	def get_following
+#		token = User.first.token
+#		appended_url = url + "access_token=#{token}"
+		response = get_json('/users/aschreck/following')
+		response.map {|follower| [follower[:login], follower[:avatar_url]]}
+	end 
+	
 	private 
-
-		def get_json
+	
+	attr_reader :conn
+		
+		def get_json(url)
 			response = conn.get(url)
       JSON.parse(response.body, symbolize_names: true)
 		end 
@@ -26,4 +37,3 @@ end
 
 
 
-#what does a member need? 

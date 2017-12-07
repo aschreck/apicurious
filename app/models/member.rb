@@ -1,21 +1,42 @@
+require './app/services/github_service.rb'
+
 class Member
 
+	attr_reader :name, :nickname, :email, :followers, :following
+
   def initialize(attrs = {})
-		@name     =  attrs[:name]
-		@nickname =  attrs[:nickname]
-		@email    =  attrs[:email]
-		@token    =  attrs[:token]
+		@name      = attrs[:name]
+		@login     = attrs[:login]
+		@email     = attrs[:email] 
+		@token     = attrs[:token]
+		@image_url = attrs[:avatar_url]
+		@followers_url = attrs[:followers_url]
+    @following_url = attrs[:following_url]
   end 
 
 
-	def self.populate_member
-		#return a member object with all the stuff we want 
-		github.create_member		
+	def self.create_member
+		#return a member object with basic information 
+		parsed_json = github.member_data
+		member = Member.new(parsed_json)
+		member.add_followers
+		member
 	end
 	
-	private 
+	def add_followers
+		@followers = self.github.get_followers
+		
+		@following = self.github.get_following
+    # followers = JSON.parse(followers_response.body)
+    # @followers = followers.map {|follower| [follower["login"], follower["avatar_url"]]} 
+	end 	
+
+		def github
+			GithubService.new 
+		end 
 
 		def self.github
 			GithubService.new 
 		end 
+
 end 
