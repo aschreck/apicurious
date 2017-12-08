@@ -43,6 +43,7 @@
 		
 <ul>
   <%@member.commits.each do |commit| %>
-    <li class="commits"><%=commit.date%><%= commit.message%></li>
+    <li class="commits"><%=commit.date%>-<%=commit.author%>: <%= commit.message%></li>
   <% end %>
 </ul>
+

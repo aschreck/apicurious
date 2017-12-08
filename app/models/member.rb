@@ -2,7 +2,7 @@ require './app/services/github_service.rb'
 
 class Member
 
-	attr_reader :name, :nickname, :email, :token, :followers, :following, :repos, :starred_repos
+	attr_reader :name, :nickname, :email, :token, :followers, :following, :repos, :starred_repos, :commits
 
   def initialize(attrs = {})
 		@name      = attrs[:name]

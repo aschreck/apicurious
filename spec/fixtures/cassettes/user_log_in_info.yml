@@ -21,7 +21,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Thu, 07 Dec 2017 21:44:00 GMT
+      - Fri, 08 Dec 2017 02:36:08 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -31,9 +31,9 @@ http_interactions:
       X-Ratelimit-Limit:
       - '5000'
       X-Ratelimit-Remaining:
-      - '4978'
+      - '4999'
       X-Ratelimit-Reset:
-      - '1512684091'
+      - '1512704168'
       Cache-Control:
       - private, max-age=60, s-maxage=60
       Vary:
@@ -66,15 +66,15 @@ http_interactions:
       X-Xss-Protection:
       - 1; mode=block
       X-Runtime-Rack:
-      - '0.077217'
+      - '0.031012'
       X-Github-Request-Id:
-      - D132:31AF:C5A655:193A703:5A29B620
+      - D6A7:05B6:5DDC11:D5955B:5A29FA97
     body:
       encoding: ASCII-8BIT
       string: '{"login":"aschreck","id":29213917,"avatar_url":"https://avatars1.githubusercontent.com/u/29213917?v=4","gravatar_id":"","url":"https://api.github.com/users/aschreck","html_url":"https://github.com/aschreck","followers_url":"https://api.github.com/users/aschreck/followers","following_url":"https://api.github.com/users/aschreck/following{/other_user}","gists_url":"https://api.github.com/users/aschreck/gists{/gist_id}","starred_url":"https://api.github.com/users/aschreck/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/aschreck/subscriptions","organizations_url":"https://api.github.com/users/aschreck/orgs","repos_url":"https://api.github.com/users/aschreck/repos","events_url":"https://api.github.com/users/aschreck/events{/privacy}","received_events_url":"https://api.github.com/users/aschreck/received_events","type":"User","site_admin":false,"name":"Aaron
         Schreck","company":null,"blog":"","location":null,"email":null,"hireable":null,"bio":null,"public_repos":38,"public_gists":12,"followers":1,"following":2,"created_at":"2017-06-05T21:38:20Z","updated_at":"2017-12-06T14:21:22Z"}'
     http_version: 
-  recorded_at: Thu, 07 Dec 2017 21:44:00 GMT
+  recorded_at: Fri, 08 Dec 2017 02:36:08 GMT
 - request:
     method: get
     uri: https://api.github.com/users/aschreck/followers?access_token=086a3d557131bd9bac9355c9516831fe92c835a4
@@ -96,7 +96,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Thu, 07 Dec 2017 21:44:02 GMT
+      - Fri, 08 Dec 2017 02:36:08 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -106,9 +106,9 @@ http_interactions:
       X-Ratelimit-Limit:
       - '5000'
       X-Ratelimit-Remaining:
-      - '4977'
+      - '4998'
       X-Ratelimit-Reset:
-      - '1512684091'
+      - '1512704168'
       Cache-Control:
       - private, max-age=60, s-maxage=60
       Vary:
@@ -139,14 +139,14 @@ http_interactions:
       X-Xss-Protection:
       - 1; mode=block
       X-Runtime-Rack:
-      - '0.168657'
+      - '0.061730'
       X-Github-Request-Id:
-      - D133:31B1:D539FD:23BA372:5A29B621
+      - D6A8:05B8:D521C4:1A07795:5A29FA98
     body:
       encoding: ASCII-8BIT
       string: '[{"login":"aziobrow","id":25802671,"avatar_url":"https://avatars2.githubusercontent.com/u/25802671?v=4","gravatar_id":"","url":"https://api.github.com/users/aziobrow","html_url":"https://github.com/aziobrow","followers_url":"https://api.github.com/users/aziobrow/followers","following_url":"https://api.github.com/users/aziobrow/following{/other_user}","gists_url":"https://api.github.com/users/aziobrow/gists{/gist_id}","starred_url":"https://api.github.com/users/aziobrow/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/aziobrow/subscriptions","organizations_url":"https://api.github.com/users/aziobrow/orgs","repos_url":"https://api.github.com/users/aziobrow/repos","events_url":"https://api.github.com/users/aziobrow/events{/privacy}","received_events_url":"https://api.github.com/users/aziobrow/received_events","type":"User","site_admin":false}]'
     http_version: 
-  recorded_at: Thu, 07 Dec 2017 21:44:02 GMT
+  recorded_at: Fri, 08 Dec 2017 02:36:08 GMT
 - request:
     method: get
     uri: https://api.github.com/users/aschreck/following?access_token=086a3d557131bd9bac9355c9516831fe92c835a4
@@ -168,7 +168,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Thu, 07 Dec 2017 21:44:02 GMT
+      - Fri, 08 Dec 2017 02:36:08 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -178,9 +178,9 @@ http_interactions:
       X-Ratelimit-Limit:
       - '5000'
       X-Ratelimit-Remaining:
-      - '4976'
+      - '4997'
       X-Ratelimit-Reset:
-      - '1512684091'
+      - '1512704168'
       Cache-Control:
       - private, max-age=60, s-maxage=60
       Vary:
@@ -211,14 +211,14 @@ http_interactions:
       X-Xss-Protection:
       - 1; mode=block
       X-Runtime-Rack:
-      - '0.059741'
+      - '0.036173'
       X-Github-Request-Id:
-      - D134:31B0:12435CC:224C649:5A29B622
+      - D6A9:05B5:82C783:1193A4D:5A29FA98
     body:
       encoding: ASCII-8BIT
       string: '[{"login":"jmejia","id":73824,"avatar_url":"https://avatars0.githubusercontent.com/u/73824?v=4","gravatar_id":"","url":"https://api.github.com/users/jmejia","html_url":"https://github.com/jmejia","followers_url":"https://api.github.com/users/jmejia/followers","following_url":"https://api.github.com/users/jmejia/following{/other_user}","gists_url":"https://api.github.com/users/jmejia/gists{/gist_id}","starred_url":"https://api.github.com/users/jmejia/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/jmejia/subscriptions","organizations_url":"https://api.github.com/users/jmejia/orgs","repos_url":"https://api.github.com/users/jmejia/repos","events_url":"https://api.github.com/users/jmejia/events{/privacy}","received_events_url":"https://api.github.com/users/jmejia/received_events","type":"User","site_admin":false},{"login":"aziobrow","id":25802671,"avatar_url":"https://avatars2.githubusercontent.com/u/25802671?v=4","gravatar_id":"","url":"https://api.github.com/users/aziobrow","html_url":"https://github.com/aziobrow","followers_url":"https://api.github.com/users/aziobrow/followers","following_url":"https://api.github.com/users/aziobrow/following{/other_user}","gists_url":"https://api.github.com/users/aziobrow/gists{/gist_id}","starred_url":"https://api.github.com/users/aziobrow/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/aziobrow/subscriptions","organizations_url":"https://api.github.com/users/aziobrow/orgs","repos_url":"https://api.github.com/users/aziobrow/repos","events_url":"https://api.github.com/users/aziobrow/events{/privacy}","received_events_url":"https://api.github.com/users/aziobrow/received_events","type":"User","site_admin":false}]'
     http_version: 
-  recorded_at: Thu, 07 Dec 2017 21:44:02 GMT
+  recorded_at: Fri, 08 Dec 2017 02:36:08 GMT
 - request:
     method: get
     uri: https://api.github.com/users/aschreck/followers?access_token=086a3d557131bd9bac9355c9516831fe92c835a4
@@ -240,7 +240,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Thu, 07 Dec 2017 21:44:02 GMT
+      - Fri, 08 Dec 2017 02:36:09 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -250,9 +250,9 @@ http_interactions:
       X-Ratelimit-Limit:
       - '5000'
       X-Ratelimit-Remaining:
-      - '4975'
+      - '4996'
       X-Ratelimit-Reset:
-      - '1512684091'
+      - '1512704168'
       Cache-Control:
       - private, max-age=60, s-maxage=60
       Vary:
@@ -283,14 +283,14 @@ http_interactions:
       X-Xss-Protection:
       - 1; mode=block
       X-Runtime-Rack:
-      - '0.025918'
+      - '0.034852'
       X-Github-Request-Id:
-      - D135:31B0:1243613:224C6C0:5A29B622
+      - D6AA:05B8:D52206:1A0780E:5A29FA98
     body:
       encoding: ASCII-8BIT
       string: '[{"login":"aziobrow","id":25802671,"avatar_url":"https://avatars2.githubusercontent.com/u/25802671?v=4","gravatar_id":"","url":"https://api.github.com/users/aziobrow","html_url":"https://github.com/aziobrow","followers_url":"https://api.github.com/users/aziobrow/followers","following_url":"https://api.github.com/users/aziobrow/following{/other_user}","gists_url":"https://api.github.com/users/aziobrow/gists{/gist_id}","starred_url":"https://api.github.com/users/aziobrow/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/aziobrow/subscriptions","organizations_url":"https://api.github.com/users/aziobrow/orgs","repos_url":"https://api.github.com/users/aziobrow/repos","events_url":"https://api.github.com/users/aziobrow/events{/privacy}","received_events_url":"https://api.github.com/users/aziobrow/received_events","type":"User","site_admin":false}]'
     http_version: 
-  recorded_at: Thu, 07 Dec 2017 21:44:03 GMT
+  recorded_at: Fri, 08 Dec 2017 02:36:09 GMT
 - request:
     method: get
     uri: https://api.github.com/users/aschreck/following?access_token=086a3d557131bd9bac9355c9516831fe92c835a4
@@ -312,7 +312,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Thu, 07 Dec 2017 21:44:03 GMT
+      - Fri, 08 Dec 2017 02:36:09 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -322,9 +322,9 @@ http_interactions:
       X-Ratelimit-Limit:
       - '5000'
       X-Ratelimit-Remaining:
-      - '4974'
+      - '4995'
       X-Ratelimit-Reset:
-      - '1512684091'
+      - '1512704168'
       Cache-Control:
       - private, max-age=60, s-maxage=60
       Vary:
@@ -355,14 +355,14 @@ http_interactions:
       X-Xss-Protection:
       - 1; mode=block
       X-Runtime-Rack:
-      - '0.045182'
+      - '0.040492'
       X-Github-Request-Id:
-      - D136:31B1:D53B4B:23BA732:5A29B623
+      - D6AB:05BB:A2E0A3:1AF000C:5A29FA99
     body:
       encoding: ASCII-8BIT
       string: '[{"login":"jmejia","id":73824,"avatar_url":"https://avatars0.githubusercontent.com/u/73824?v=4","gravatar_id":"","url":"https://api.github.com/users/jmejia","html_url":"https://github.com/jmejia","followers_url":"https://api.github.com/users/jmejia/followers","following_url":"https://api.github.com/users/jmejia/following{/other_user}","gists_url":"https://api.github.com/users/jmejia/gists{/gist_id}","starred_url":"https://api.github.com/users/jmejia/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/jmejia/subscriptions","organizations_url":"https://api.github.com/users/jmejia/orgs","repos_url":"https://api.github.com/users/jmejia/repos","events_url":"https://api.github.com/users/jmejia/events{/privacy}","received_events_url":"https://api.github.com/users/jmejia/received_events","type":"User","site_admin":false},{"login":"aziobrow","id":25802671,"avatar_url":"https://avatars2.githubusercontent.com/u/25802671?v=4","gravatar_id":"","url":"https://api.github.com/users/aziobrow","html_url":"https://github.com/aziobrow","followers_url":"https://api.github.com/users/aziobrow/followers","following_url":"https://api.github.com/users/aziobrow/following{/other_user}","gists_url":"https://api.github.com/users/aziobrow/gists{/gist_id}","starred_url":"https://api.github.com/users/aziobrow/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/aziobrow/subscriptions","organizations_url":"https://api.github.com/users/aziobrow/orgs","repos_url":"https://api.github.com/users/aziobrow/repos","events_url":"https://api.github.com/users/aziobrow/events{/privacy}","received_events_url":"https://api.github.com/users/aziobrow/received_events","type":"User","site_admin":false}]'
     http_version: 
-  recorded_at: Thu, 07 Dec 2017 21:44:03 GMT
+  recorded_at: Fri, 08 Dec 2017 02:36:09 GMT
 - request:
     method: get
     uri: https://api.github.com/users/aschreck/repos?access_token=086a3d557131bd9bac9355c9516831fe92c835a4
@@ -384,7 +384,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Thu, 07 Dec 2017 21:44:04 GMT
+      - Fri, 08 Dec 2017 02:36:09 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -394,9 +394,9 @@ http_interactions:
       X-Ratelimit-Limit:
       - '5000'
       X-Ratelimit-Remaining:
-      - '4973'
+      - '4994'
       X-Ratelimit-Reset:
-      - '1512684091'
+      - '1512704168'
       Cache-Control:
       - private, max-age=60, s-maxage=60
       Vary:
@@ -431,9 +431,9 @@ http_interactions:
       X-Xss-Protection:
       - 1; mode=block
       X-Runtime-Rack:
-      - '0.217534'
+      - '0.160459'
       X-Github-Request-Id:
-      - D137:31AE:7C0D7C:10DFBBE:5A29B623
+      - D6AC:05B5:82C7A9:1193AA5:5A29FA99
     body:
       encoding: ASCII-8BIT
       string: '[{"id":105597528,"name":"activerecord_exploration","full_name":"aschreck/activerecord_exploration","owner":{"login":"aschreck","id":29213917,"avatar_url":"https://avatars1.githubusercontent.com/u/29213917?v=4","gravatar_id":"","url":"https://api.github.com/users/aschreck","html_url":"https://github.com/aschreck","followers_url":"https://api.github.com/users/aschreck/followers","following_url":"https://api.github.com/users/aschreck/following{/other_user}","gists_url":"https://api.github.com/users/aschreck/gists{/gist_id}","starred_url":"https://api.github.com/users/aschreck/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/aschreck/subscriptions","organizations_url":"https://api.github.com/users/aschreck/orgs","repos_url":"https://api.github.com/users/aschreck/repos","events_url":"https://api.github.com/users/aschreck/events{/privacy}","received_events_url":"https://api.github.com/users/aschreck/received_events","type":"User","site_admin":false},"private":false,"html_url":"https://github.com/aschreck/activerecord_exploration","description":null,"fork":true,"url":"https://api.github.com/repos/aschreck/activerecord_exploration","forks_url":"https://api.github.com/repos/aschreck/activerecord_exploration/forks","keys_url":"https://api.github.com/repos/aschreck/activerecord_exploration/keys{/key_id}","collaborators_url":"https://api.github.com/repos/aschreck/activerecord_exploration/collaborators{/collaborator}","teams_url":"https://api.github.com/repos/aschreck/activerecord_exploration/teams","hooks_url":"https://api.github.com/repos/aschreck/activerecord_exploration/hooks","issue_events_url":"https://api.github.com/repos/aschreck/activerecord_exploration/issues/events{/number}","events_url":"https://api.github.com/repos/aschreck/activerecord_exploration/events","assignees_url":"https://api.github.com/repos/aschreck/activerecord_exploration/assignees{/user}","branches_url":"https://api.github.com/repos/aschreck/activerecord_exploration/branches{/branch}","tags_url":"https://api.github.com/repos/aschreck/activerecord_exploration/tags","blobs_url":"https://api.github.com/repos/aschreck/activerecord_exploration/git/blobs{/sha}","git_tags_url":"https://api.github.com/repos/aschreck/activerecord_exploration/git/tags{/sha}","git_refs_url":"https://api.github.com/repos/aschreck/activerecord_exploration/git/refs{/sha}","trees_url":"https://api.github.com/repos/aschreck/activerecord_exploration/git/trees{/sha}","statuses_url":"https://api.github.com/repos/aschreck/activerecord_exploration/statuses/{sha}","languages_url":"https://api.github.com/repos/aschreck/activerecord_exploration/languages","stargazers_url":"https://api.github.com/repos/aschreck/activerecord_exploration/stargazers","contributors_url":"https://api.github.com/repos/aschreck/activerecord_exploration/contributors","subscribers_url":"https://api.github.com/repos/aschreck/activerecord_exploration/subscribers","subscription_url":"https://api.github.com/repos/aschreck/activerecord_exploration/subscription","commits_url":"https://api.github.com/repos/aschreck/activerecord_exploration/commits{/sha}","git_commits_url":"https://api.github.com/repos/aschreck/activerecord_exploration/git/commits{/sha}","comments_url":"https://api.github.com/repos/aschreck/activerecord_exploration/comments{/number}","issue_comment_url":"https://api.github.com/repos/aschreck/activerecord_exploration/issues/comments{/number}","contents_url":"https://api.github.com/repos/aschreck/activerecord_exploration/contents/{+path}","compare_url":"https://api.github.com/repos/aschreck/activerecord_exploration/compare/{base}...{head}","merges_url":"https://api.github.com/repos/aschreck/activerecord_exploration/merges","archive_url":"https://api.github.com/repos/aschreck/activerecord_exploration/{archive_format}{/ref}","downloads_url":"https://api.github.com/repos/aschreck/activerecord_exploration/downloads","issues_url":"https://api.github.com/repos/aschreck/activerecord_exploration/issues{/number}","pulls_url":"https://api.github.com/repos/aschreck/activerecord_exploration/pulls{/number}","milestones_url":"https://api.github.com/repos/aschreck/activerecord_exploration/milestones{/number}","notifications_url":"https://api.github.com/repos/aschreck/activerecord_exploration/notifications{?since,all,participating}","labels_url":"https://api.github.com/repos/aschreck/activerecord_exploration/labels{/name}","releases_url":"https://api.github.com/repos/aschreck/activerecord_exploration/releases{/id}","deployments_url":"https://api.github.com/repos/aschreck/activerecord_exploration/deployments","created_at":"2017-10-03T00:00:37Z","updated_at":"2017-10-03T00:00:38Z","pushed_at":"2017-10-03T19:12:24Z","git_url":"git://github.com/aschreck/activerecord_exploration.git","ssh_url":"git@github.com:aschreck/activerecord_exploration.git","clone_url":"https://github.com/aschreck/activerecord_exploration.git","svn_url":"https://github.com/aschreck/activerecord_exploration","homepage":null,"size":31,"stargazers_count":0,"watchers_count":0,"language":"Ruby","has_issues":false,"has_projects":true,"has_downloads":true,"has_wiki":true,"has_pages":false,"forks_count":0,"mirror_url":null,"archived":false,"open_issues_count":0,"license":null,"forks":0,"open_issues":0,"watchers":0,"default_branch":"master","permissions":{"admin":true,"push":true,"pull":true}},{"id":113075761,"name":"apicurious","full_name":"aschreck/apicurious","owner":{"login":"aschreck","id":29213917,"avatar_url":"https://avatars1.githubusercontent.com/u/29213917?v=4","gravatar_id":"","url":"https://api.github.com/users/aschreck","html_url":"https://github.com/aschreck","followers_url":"https://api.github.com/users/aschreck/followers","following_url":"https://api.github.com/users/aschreck/following{/other_user}","gists_url":"https://api.github.com/users/aschreck/gists{/gist_id}","starred_url":"https://api.github.com/users/aschreck/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/aschreck/subscriptions","organizations_url":"https://api.github.com/users/aschreck/orgs","repos_url":"https://api.github.com/users/aschreck/repos","events_url":"https://api.github.com/users/aschreck/events{/privacy}","received_events_url":"https://api.github.com/users/aschreck/received_events","type":"User","site_admin":false},"private":false,"html_url":"https://github.com/aschreck/apicurious","description":null,"fork":false,"url":"https://api.github.com/repos/aschreck/apicurious","forks_url":"https://api.github.com/repos/aschreck/apicurious/forks","keys_url":"https://api.github.com/repos/aschreck/apicurious/keys{/key_id}","collaborators_url":"https://api.github.com/repos/aschreck/apicurious/collaborators{/collaborator}","teams_url":"https://api.github.com/repos/aschreck/apicurious/teams","hooks_url":"https://api.github.com/repos/aschreck/apicurious/hooks","issue_events_url":"https://api.github.com/repos/aschreck/apicurious/issues/events{/number}","events_url":"https://api.github.com/repos/aschreck/apicurious/events","assignees_url":"https://api.github.com/repos/aschreck/apicurious/assignees{/user}","branches_url":"https://api.github.com/repos/aschreck/apicurious/branches{/branch}","tags_url":"https://api.github.com/repos/aschreck/apicurious/tags","blobs_url":"https://api.github.com/repos/aschreck/apicurious/git/blobs{/sha}","git_tags_url":"https://api.github.com/repos/aschreck/apicurious/git/tags{/sha}","git_refs_url":"https://api.github.com/repos/aschreck/apicurious/git/refs{/sha}","trees_url":"https://api.github.com/repos/aschreck/apicurious/git/trees{/sha}","statuses_url":"https://api.github.com/repos/aschreck/apicurious/statuses/{sha}","languages_url":"https://api.github.com/repos/aschreck/apicurious/languages","stargazers_url":"https://api.github.com/repos/aschreck/apicurious/stargazers","contributors_url":"https://api.github.com/repos/aschreck/apicurious/contributors","subscribers_url":"https://api.github.com/repos/aschreck/apicurious/subscribers","subscription_url":"https://api.github.com/repos/aschreck/apicurious/subscription","commits_url":"https://api.github.com/repos/aschreck/apicurious/commits{/sha}","git_commits_url":"https://api.github.com/repos/aschreck/apicurious/git/commits{/sha}","comments_url":"https://api.github.com/repos/aschreck/apicurious/comments{/number}","issue_comment_url":"https://api.github.com/repos/aschreck/apicurious/issues/comments{/number}","contents_url":"https://api.github.com/repos/aschreck/apicurious/contents/{+path}","compare_url":"https://api.github.com/repos/aschreck/apicurious/compare/{base}...{head}","merges_url":"https://api.github.com/repos/aschreck/apicurious/merges","archive_url":"https://api.github.com/repos/aschreck/apicurious/{archive_format}{/ref}","downloads_url":"https://api.github.com/repos/aschreck/apicurious/downloads","issues_url":"https://api.github.com/repos/aschreck/apicurious/issues{/number}","pulls_url":"https://api.github.com/repos/aschreck/apicurious/pulls{/number}","milestones_url":"https://api.github.com/repos/aschreck/apicurious/milestones{/number}","notifications_url":"https://api.github.com/repos/aschreck/apicurious/notifications{?since,all,participating}","labels_url":"https://api.github.com/repos/aschreck/apicurious/labels{/name}","releases_url":"https://api.github.com/repos/aschreck/apicurious/releases{/id}","deployments_url":"https://api.github.com/repos/aschreck/apicurious/deployments","created_at":"2017-12-04T17:52:36Z","updated_at":"2017-12-04T17:53:15Z","pushed_at":"2017-12-07T19:00:09Z","git_url":"git://github.com/aschreck/apicurious.git","ssh_url":"git@github.com:aschreck/apicurious.git","clone_url":"https://github.com/aschreck/apicurious.git","svn_url":"https://github.com/aschreck/apicurious","homepage":null,"size":41,"stargazers_count":0,"watchers_count":0,"language":"Ruby","has_issues":true,"has_projects":true,"has_downloads":true,"has_wiki":true,"has_pages":false,"forks_count":0,"mirror_url":null,"archived":false,"open_issues_count":0,"license":null,"forks":0,"open_issues":0,"watchers":0,"default_branch":"master","permissions":{"admin":true,"push":true,"pull":true}},{"id":100527089,"name":"Bad-Connection","full_name":"aschreck/Bad-Connection","owner":{"login":"aschreck","id":29213917,"avatar_url":"https://avatars1.githubusercontent.com/u/29213917?v=4","gravatar_id":"","url":"https://api.github.com/users/aschreck","html_url":"https://github.com/aschreck","followers_url":"https://api.github.com/users/aschreck/followers","following_url":"https://api.github.com/users/aschreck/following{/other_user}","gists_url":"https://api.github.com/users/aschreck/gists{/gist_id}","starred_url":"https://api.github.com/users/aschreck/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/aschreck/subscriptions","organizations_url":"https://api.github.com/users/aschreck/orgs","repos_url":"https://api.github.com/users/aschreck/repos","events_url":"https://api.github.com/users/aschreck/events{/privacy}","received_events_url":"https://api.github.com/users/aschreck/received_events","type":"User","site_admin":false},"private":false,"html_url":"https://github.com/aschreck/Bad-Connection","description":null,"fork":false,"url":"https://api.github.com/repos/aschreck/Bad-Connection","forks_url":"https://api.github.com/repos/aschreck/Bad-Connection/forks","keys_url":"https://api.github.com/repos/aschreck/Bad-Connection/keys{/key_id}","collaborators_url":"https://api.github.com/repos/aschreck/Bad-Connection/collaborators{/collaborator}","teams_url":"https://api.github.com/repos/aschreck/Bad-Connection/teams","hooks_url":"https://api.github.com/repos/aschreck/Bad-Connection/hooks","issue_events_url":"https://api.github.com/repos/aschreck/Bad-Connection/issues/events{/number}","events_url":"https://api.github.com/repos/aschreck/Bad-Connection/events","assignees_url":"https://api.github.com/repos/aschreck/Bad-Connection/assignees{/user}","branches_url":"https://api.github.com/repos/aschreck/Bad-Connection/branches{/branch}","tags_url":"https://api.github.com/repos/aschreck/Bad-Connection/tags","blobs_url":"https://api.github.com/repos/aschreck/Bad-Connection/git/blobs{/sha}","git_tags_url":"https://api.github.com/repos/aschreck/Bad-Connection/git/tags{/sha}","git_refs_url":"https://api.github.com/repos/aschreck/Bad-Connection/git/refs{/sha}","trees_url":"https://api.github.com/repos/aschreck/Bad-Connection/git/trees{/sha}","statuses_url":"https://api.github.com/repos/aschreck/Bad-Connection/statuses/{sha}","languages_url":"https://api.github.com/repos/aschreck/Bad-Connection/languages","stargazers_url":"https://api.github.com/repos/aschreck/Bad-Connection/stargazers","contributors_url":"https://api.github.com/repos/aschreck/Bad-Connection/contributors","subscribers_url":"https://api.github.com/repos/aschreck/Bad-Connection/subscribers","subscription_url":"https://api.github.com/repos/aschreck/Bad-Connection/subscription","commits_url":"https://api.github.com/repos/aschreck/Bad-Connection/commits{/sha}","git_commits_url":"https://api.github.com/repos/aschreck/Bad-Connection/git/commits{/sha}","comments_url":"https://api.github.com/repos/aschreck/Bad-Connection/comments{/number}","issue_comment_url":"https://api.github.com/repos/aschreck/Bad-Connection/issues/comments{/number}","contents_url":"https://api.github.com/repos/aschreck/Bad-Connection/contents/{+path}","compare_url":"https://api.github.com/repos/aschreck/Bad-Connection/compare/{base}...{head}","merges_url":"https://api.github.com/repos/aschreck/Bad-Connection/merges","archive_url":"https://api.github.com/repos/aschreck/Bad-Connection/{archive_format}{/ref}","downloads_url":"https://api.github.com/repos/aschreck/Bad-Connection/downloads","issues_url":"https://api.github.com/repos/aschreck/Bad-Connection/issues{/number}","pulls_url":"https://api.github.com/repos/aschreck/Bad-Connection/pulls{/number}","milestones_url":"https://api.github.com/repos/aschreck/Bad-Connection/milestones{/number}","notifications_url":"https://api.github.com/repos/aschreck/Bad-Connection/notifications{?since,all,participating}","labels_url":"https://api.github.com/repos/aschreck/Bad-Connection/labels{/name}","releases_url":"https://api.github.com/repos/aschreck/Bad-Connection/releases{/id}","deployments_url":"https://api.github.com/repos/aschreck/Bad-Connection/deployments","created_at":"2017-08-16T19:53:42Z","updated_at":"2017-08-16T19:54:58Z","pushed_at":"2017-08-16T19:54:57Z","git_url":"git://github.com/aschreck/Bad-Connection.git","ssh_url":"git@github.com:aschreck/Bad-Connection.git","clone_url":"https://github.com/aschreck/Bad-Connection.git","svn_url":"https://github.com/aschreck/Bad-Connection","homepage":null,"size":0,"stargazers_count":0,"watchers_count":0,"language":"Ruby","has_issues":true,"has_projects":true,"has_downloads":true,"has_wiki":true,"has_pages":false,"forks_count":0,"mirror_url":null,"archived":false,"open_issues_count":0,"license":null,"forks":0,"open_issues":0,"watchers":0,"default_branch":"master","permissions":{"admin":true,"push":true,"pull":true}},{"id":102208610,"name":"battleship","full_name":"aschreck/battleship","owner":{"login":"aschreck","id":29213917,"avatar_url":"https://avatars1.githubusercontent.com/u/29213917?v=4","gravatar_id":"","url":"https://api.github.com/users/aschreck","html_url":"https://github.com/aschreck","followers_url":"https://api.github.com/users/aschreck/followers","following_url":"https://api.github.com/users/aschreck/following{/other_user}","gists_url":"https://api.github.com/users/aschreck/gists{/gist_id}","starred_url":"https://api.github.com/users/aschreck/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/aschreck/subscriptions","organizations_url":"https://api.github.com/users/aschreck/orgs","repos_url":"https://api.github.com/users/aschreck/repos","events_url":"https://api.github.com/users/aschreck/events{/privacy}","received_events_url":"https://api.github.com/users/aschreck/received_events","type":"User","site_admin":false},"private":false,"html_url":"https://github.com/aschreck/battleship","description":"A
@@ -449,7 +449,7 @@ http_interactions:
         repo for B1 exercise","fork":true,"url":"https://api.github.com/repos/aschreck/morse_translator","forks_url":"https://api.github.com/repos/aschreck/morse_translator/forks","keys_url":"https://api.github.com/repos/aschreck/morse_translator/keys{/key_id}","collaborators_url":"https://api.github.com/repos/aschreck/morse_translator/collaborators{/collaborator}","teams_url":"https://api.github.com/repos/aschreck/morse_translator/teams","hooks_url":"https://api.github.com/repos/aschreck/morse_translator/hooks","issue_events_url":"https://api.github.com/repos/aschreck/morse_translator/issues/events{/number}","events_url":"https://api.github.com/repos/aschreck/morse_translator/events","assignees_url":"https://api.github.com/repos/aschreck/morse_translator/assignees{/user}","branches_url":"https://api.github.com/repos/aschreck/morse_translator/branches{/branch}","tags_url":"https://api.github.com/repos/aschreck/morse_translator/tags","blobs_url":"https://api.github.com/repos/aschreck/morse_translator/git/blobs{/sha}","git_tags_url":"https://api.github.com/repos/aschreck/morse_translator/git/tags{/sha}","git_refs_url":"https://api.github.com/repos/aschreck/morse_translator/git/refs{/sha}","trees_url":"https://api.github.com/repos/aschreck/morse_translator/git/trees{/sha}","statuses_url":"https://api.github.com/repos/aschreck/morse_translator/statuses/{sha}","languages_url":"https://api.github.com/repos/aschreck/morse_translator/languages","stargazers_url":"https://api.github.com/repos/aschreck/morse_translator/stargazers","contributors_url":"https://api.github.com/repos/aschreck/morse_translator/contributors","subscribers_url":"https://api.github.com/repos/aschreck/morse_translator/subscribers","subscription_url":"https://api.github.com/repos/aschreck/morse_translator/subscription","commits_url":"https://api.github.com/repos/aschreck/morse_translator/commits{/sha}","git_commits_url":"https://api.github.com/repos/aschreck/morse_translator/git/commits{/sha}","comments_url":"https://api.github.com/repos/aschreck/morse_translator/comments{/number}","issue_comment_url":"https://api.github.com/repos/aschreck/morse_translator/issues/comments{/number}","contents_url":"https://api.github.com/repos/aschreck/morse_translator/contents/{+path}","compare_url":"https://api.github.com/repos/aschreck/morse_translator/compare/{base}...{head}","merges_url":"https://api.github.com/repos/aschreck/morse_translator/merges","archive_url":"https://api.github.com/repos/aschreck/morse_translator/{archive_format}{/ref}","downloads_url":"https://api.github.com/repos/aschreck/morse_translator/downloads","issues_url":"https://api.github.com/repos/aschreck/morse_translator/issues{/number}","pulls_url":"https://api.github.com/repos/aschreck/morse_translator/pulls{/number}","milestones_url":"https://api.github.com/repos/aschreck/morse_translator/milestones{/number}","notifications_url":"https://api.github.com/repos/aschreck/morse_translator/notifications{?since,all,participating}","labels_url":"https://api.github.com/repos/aschreck/morse_translator/labels{/name}","releases_url":"https://api.github.com/repos/aschreck/morse_translator/releases{/id}","deployments_url":"https://api.github.com/repos/aschreck/morse_translator/deployments","created_at":"2017-08-23T15:01:55Z","updated_at":"2017-12-06T15:47:21Z","pushed_at":"2017-08-23T15:55:20Z","git_url":"git://github.com/aschreck/morse_translator.git","ssh_url":"git@github.com:aschreck/morse_translator.git","clone_url":"https://github.com/aschreck/morse_translator.git","svn_url":"https://github.com/aschreck/morse_translator","homepage":"","size":2,"stargazers_count":0,"watchers_count":0,"language":"Ruby","has_issues":false,"has_projects":true,"has_downloads":true,"has_wiki":true,"has_pages":false,"forks_count":0,"mirror_url":null,"archived":false,"open_issues_count":0,"license":null,"forks":0,"open_issues":0,"watchers":0,"default_branch":"master","permissions":{"admin":true,"push":true,"pull":true}},{"id":102622296,"name":"open_mic","full_name":"aschreck/open_mic","owner":{"login":"aschreck","id":29213917,"avatar_url":"https://avatars1.githubusercontent.com/u/29213917?v=4","gravatar_id":"","url":"https://api.github.com/users/aschreck","html_url":"https://github.com/aschreck","followers_url":"https://api.github.com/users/aschreck/followers","following_url":"https://api.github.com/users/aschreck/following{/other_user}","gists_url":"https://api.github.com/users/aschreck/gists{/gist_id}","starred_url":"https://api.github.com/users/aschreck/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/aschreck/subscriptions","organizations_url":"https://api.github.com/users/aschreck/orgs","repos_url":"https://api.github.com/users/aschreck/repos","events_url":"https://api.github.com/users/aschreck/events{/privacy}","received_events_url":"https://api.github.com/users/aschreck/received_events","type":"User","site_admin":false},"private":false,"html_url":"https://github.com/aschreck/open_mic","description":null,"fork":true,"url":"https://api.github.com/repos/aschreck/open_mic","forks_url":"https://api.github.com/repos/aschreck/open_mic/forks","keys_url":"https://api.github.com/repos/aschreck/open_mic/keys{/key_id}","collaborators_url":"https://api.github.com/repos/aschreck/open_mic/collaborators{/collaborator}","teams_url":"https://api.github.com/repos/aschreck/open_mic/teams","hooks_url":"https://api.github.com/repos/aschreck/open_mic/hooks","issue_events_url":"https://api.github.com/repos/aschreck/open_mic/issues/events{/number}","events_url":"https://api.github.com/repos/aschreck/open_mic/events","assignees_url":"https://api.github.com/repos/aschreck/open_mic/assignees{/user}","branches_url":"https://api.github.com/repos/aschreck/open_mic/branches{/branch}","tags_url":"https://api.github.com/repos/aschreck/open_mic/tags","blobs_url":"https://api.github.com/repos/aschreck/open_mic/git/blobs{/sha}","git_tags_url":"https://api.github.com/repos/aschreck/open_mic/git/tags{/sha}","git_refs_url":"https://api.github.com/repos/aschreck/open_mic/git/refs{/sha}","trees_url":"https://api.github.com/repos/aschreck/open_mic/git/trees{/sha}","statuses_url":"https://api.github.com/repos/aschreck/open_mic/statuses/{sha}","languages_url":"https://api.github.com/repos/aschreck/open_mic/languages","stargazers_url":"https://api.github.com/repos/aschreck/open_mic/stargazers","contributors_url":"https://api.github.com/repos/aschreck/open_mic/contributors","subscribers_url":"https://api.github.com/repos/aschreck/open_mic/subscribers","subscription_url":"https://api.github.com/repos/aschreck/open_mic/subscription","commits_url":"https://api.github.com/repos/aschreck/open_mic/commits{/sha}","git_commits_url":"https://api.github.com/repos/aschreck/open_mic/git/commits{/sha}","comments_url":"https://api.github.com/repos/aschreck/open_mic/comments{/number}","issue_comment_url":"https://api.github.com/repos/aschreck/open_mic/issues/comments{/number}","contents_url":"https://api.github.com/repos/aschreck/open_mic/contents/{+path}","compare_url":"https://api.github.com/repos/aschreck/open_mic/compare/{base}...{head}","merges_url":"https://api.github.com/repos/aschreck/open_mic/merges","archive_url":"https://api.github.com/repos/aschreck/open_mic/{archive_format}{/ref}","downloads_url":"https://api.github.com/repos/aschreck/open_mic/downloads","issues_url":"https://api.github.com/repos/aschreck/open_mic/issues{/number}","pulls_url":"https://api.github.com/repos/aschreck/open_mic/pulls{/number}","milestones_url":"https://api.github.com/repos/aschreck/open_mic/milestones{/number}","notifications_url":"https://api.github.com/repos/aschreck/open_mic/notifications{?since,all,participating}","labels_url":"https://api.github.com/repos/aschreck/open_mic/labels{/name}","releases_url":"https://api.github.com/repos/aschreck/open_mic/releases{/id}","deployments_url":"https://api.github.com/repos/aschreck/open_mic/deployments","created_at":"2017-09-06T14:58:56Z","updated_at":"2017-09-06T14:58:58Z","pushed_at":"2017-09-06T15:40:13Z","git_url":"git://github.com/aschreck/open_mic.git","ssh_url":"git@github.com:aschreck/open_mic.git","clone_url":"https://github.com/aschreck/open_mic.git","svn_url":"https://github.com/aschreck/open_mic","homepage":null,"size":8,"stargazers_count":0,"watchers_count":0,"language":"Ruby","has_issues":false,"has_projects":true,"has_downloads":true,"has_wiki":true,"has_pages":false,"forks_count":0,"mirror_url":null,"archived":false,"open_issues_count":0,"license":null,"forks":0,"open_issues":0,"watchers":0,"default_branch":"master","permissions":{"admin":true,"push":true,"pull":true}},{"id":104575463,"name":"personal_site","full_name":"aschreck/personal_site","owner":{"login":"aschreck","id":29213917,"avatar_url":"https://avatars1.githubusercontent.com/u/29213917?v=4","gravatar_id":"","url":"https://api.github.com/users/aschreck","html_url":"https://github.com/aschreck","followers_url":"https://api.github.com/users/aschreck/followers","following_url":"https://api.github.com/users/aschreck/following{/other_user}","gists_url":"https://api.github.com/users/aschreck/gists{/gist_id}","starred_url":"https://api.github.com/users/aschreck/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/aschreck/subscriptions","organizations_url":"https://api.github.com/users/aschreck/orgs","repos_url":"https://api.github.com/users/aschreck/repos","events_url":"https://api.github.com/users/aschreck/events{/privacy}","received_events_url":"https://api.github.com/users/aschreck/received_events","type":"User","site_admin":false},"private":false,"html_url":"https://github.com/aschreck/personal_site","description":null,"fork":false,"url":"https://api.github.com/repos/aschreck/personal_site","forks_url":"https://api.github.com/repos/aschreck/personal_site/forks","keys_url":"https://api.github.com/repos/aschreck/personal_site/keys{/key_id}","collaborators_url":"https://api.github.com/repos/aschreck/personal_site/collaborators{/collaborator}","teams_url":"https://api.github.com/repos/aschreck/personal_site/teams","hooks_url":"https://api.github.com/repos/aschreck/personal_site/hooks","issue_events_url":"https://api.github.com/repos/aschreck/personal_site/issues/events{/number}","events_url":"https://api.github.com/repos/aschreck/personal_site/events","assignees_url":"https://api.github.com/repos/aschreck/personal_site/assignees{/user}","branches_url":"https://api.github.com/repos/aschreck/personal_site/branches{/branch}","tags_url":"https://api.github.com/repos/aschreck/personal_site/tags","blobs_url":"https://api.github.com/repos/aschreck/personal_site/git/blobs{/sha}","git_tags_url":"https://api.github.com/repos/aschreck/personal_site/git/tags{/sha}","git_refs_url":"https://api.github.com/repos/aschreck/personal_site/git/refs{/sha}","trees_url":"https://api.github.com/repos/aschreck/personal_site/git/trees{/sha}","statuses_url":"https://api.github.com/repos/aschreck/personal_site/statuses/{sha}","languages_url":"https://api.github.com/repos/aschreck/personal_site/languages","stargazers_url":"https://api.github.com/repos/aschreck/personal_site/stargazers","contributors_url":"https://api.github.com/repos/aschreck/personal_site/contributors","subscribers_url":"https://api.github.com/repos/aschreck/personal_site/subscribers","subscription_url":"https://api.github.com/repos/aschreck/personal_site/subscription","commits_url":"https://api.github.com/repos/aschreck/personal_site/commits{/sha}","git_commits_url":"https://api.github.com/repos/aschreck/personal_site/git/commits{/sha}","comments_url":"https://api.github.com/repos/aschreck/personal_site/comments{/number}","issue_comment_url":"https://api.github.com/repos/aschreck/personal_site/issues/comments{/number}","contents_url":"https://api.github.com/repos/aschreck/personal_site/contents/{+path}","compare_url":"https://api.github.com/repos/aschreck/personal_site/compare/{base}...{head}","merges_url":"https://api.github.com/repos/aschreck/personal_site/merges","archive_url":"https://api.github.com/repos/aschreck/personal_site/{archive_format}{/ref}","downloads_url":"https://api.github.com/repos/aschreck/personal_site/downloads","issues_url":"https://api.github.com/repos/aschreck/personal_site/issues{/number}","pulls_url":"https://api.github.com/repos/aschreck/personal_site/pulls{/number}","milestones_url":"https://api.github.com/repos/aschreck/personal_site/milestones{/number}","notifications_url":"https://api.github.com/repos/aschreck/personal_site/notifications{?since,all,participating}","labels_url":"https://api.github.com/repos/aschreck/personal_site/labels{/name}","releases_url":"https://api.github.com/repos/aschreck/personal_site/releases{/id}","deployments_url":"https://api.github.com/repos/aschreck/personal_site/deployments","created_at":"2017-09-23T14:54:37Z","updated_at":"2017-09-23T14:54:37Z","pushed_at":"2017-09-23T14:54:45Z","git_url":"git://github.com/aschreck/personal_site.git","ssh_url":"git@github.com:aschreck/personal_site.git","clone_url":"https://github.com/aschreck/personal_site.git","svn_url":"https://github.com/aschreck/personal_site","homepage":null,"size":0,"stargazers_count":0,"watchers_count":0,"language":null,"has_issues":true,"has_projects":true,"has_downloads":true,"has_wiki":true,"has_pages":false,"forks_count":0,"mirror_url":null,"archived":false,"open_issues_count":0,"license":null,"forks":0,"open_issues":0,"watchers":0,"default_branch":"master","permissions":{"admin":true,"push":true,"pull":true}},{"id":107788915,"name":"point-box","full_name":"aschreck/point-box","owner":{"login":"aschreck","id":29213917,"avatar_url":"https://avatars1.githubusercontent.com/u/29213917?v=4","gravatar_id":"","url":"https://api.github.com/users/aschreck","html_url":"https://github.com/aschreck","followers_url":"https://api.github.com/users/aschreck/followers","following_url":"https://api.github.com/users/aschreck/following{/other_user}","gists_url":"https://api.github.com/users/aschreck/gists{/gist_id}","starred_url":"https://api.github.com/users/aschreck/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/aschreck/subscriptions","organizations_url":"https://api.github.com/users/aschreck/orgs","repos_url":"https://api.github.com/users/aschreck/repos","events_url":"https://api.github.com/users/aschreck/events{/privacy}","received_events_url":"https://api.github.com/users/aschreck/received_events","type":"User","site_admin":false},"private":false,"html_url":"https://github.com/aschreck/point-box","description":null,"fork":false,"url":"https://api.github.com/repos/aschreck/point-box","forks_url":"https://api.github.com/repos/aschreck/point-box/forks","keys_url":"https://api.github.com/repos/aschreck/point-box/keys{/key_id}","collaborators_url":"https://api.github.com/repos/aschreck/point-box/collaborators{/collaborator}","teams_url":"https://api.github.com/repos/aschreck/point-box/teams","hooks_url":"https://api.github.com/repos/aschreck/point-box/hooks","issue_events_url":"https://api.github.com/repos/aschreck/point-box/issues/events{/number}","events_url":"https://api.github.com/repos/aschreck/point-box/events","assignees_url":"https://api.github.com/repos/aschreck/point-box/assignees{/user}","branches_url":"https://api.github.com/repos/aschreck/point-box/branches{/branch}","tags_url":"https://api.github.com/repos/aschreck/point-box/tags","blobs_url":"https://api.github.com/repos/aschreck/point-box/git/blobs{/sha}","git_tags_url":"https://api.github.com/repos/aschreck/point-box/git/tags{/sha}","git_refs_url":"https://api.github.com/repos/aschreck/point-box/git/refs{/sha}","trees_url":"https://api.github.com/repos/aschreck/point-box/git/trees{/sha}","statuses_url":"https://api.github.com/repos/aschreck/point-box/statuses/{sha}","languages_url":"https://api.github.com/repos/aschreck/point-box/languages","stargazers_url":"https://api.github.com/repos/aschreck/point-box/stargazers","contributors_url":"https://api.github.com/repos/aschreck/point-box/contributors","subscribers_url":"https://api.github.com/repos/aschreck/point-box/subscribers","subscription_url":"https://api.github.com/repos/aschreck/point-box/subscription","commits_url":"https://api.github.com/repos/aschreck/point-box/commits{/sha}","git_commits_url":"https://api.github.com/repos/aschreck/point-box/git/commits{/sha}","comments_url":"https://api.github.com/repos/aschreck/point-box/comments{/number}","issue_comment_url":"https://api.github.com/repos/aschreck/point-box/issues/comments{/number}","contents_url":"https://api.github.com/repos/aschreck/point-box/contents/{+path}","compare_url":"https://api.github.com/repos/aschreck/point-box/compare/{base}...{head}","merges_url":"https://api.github.com/repos/aschreck/point-box/merges","archive_url":"https://api.github.com/repos/aschreck/point-box/{archive_format}{/ref}","downloads_url":"https://api.github.com/repos/aschreck/point-box/downloads","issues_url":"https://api.github.com/repos/aschreck/point-box/issues{/number}","pulls_url":"https://api.github.com/repos/aschreck/point-box/pulls{/number}","milestones_url":"https://api.github.com/repos/aschreck/point-box/milestones{/number}","notifications_url":"https://api.github.com/repos/aschreck/point-box/notifications{?since,all,participating}","labels_url":"https://api.github.com/repos/aschreck/point-box/labels{/name}","releases_url":"https://api.github.com/repos/aschreck/point-box/releases{/id}","deployments_url":"https://api.github.com/repos/aschreck/point-box/deployments","created_at":"2017-10-21T14:52:10Z","updated_at":"2017-10-21T14:53:00Z","pushed_at":"2017-10-31T14:33:33Z","git_url":"git://github.com/aschreck/point-box.git","ssh_url":"git@github.com:aschreck/point-box.git","clone_url":"https://github.com/aschreck/point-box.git","svn_url":"https://github.com/aschreck/point-box","homepage":null,"size":90,"stargazers_count":0,"watchers_count":0,"language":"Ruby","has_issues":true,"has_projects":true,"has_downloads":true,"has_wiki":true,"has_pages":false,"forks_count":0,"mirror_url":null,"archived":false,"open_issues_count":0,"license":null,"forks":0,"open_issues":0,"watchers":0,"default_branch":"master","permissions":{"admin":true,"push":true,"pull":true}},{"id":110012053,"name":"portfolios","full_name":"aschreck/portfolios","owner":{"login":"aschreck","id":29213917,"avatar_url":"https://avatars1.githubusercontent.com/u/29213917?v=4","gravatar_id":"","url":"https://api.github.com/users/aschreck","html_url":"https://github.com/aschreck","followers_url":"https://api.github.com/users/aschreck/followers","following_url":"https://api.github.com/users/aschreck/following{/other_user}","gists_url":"https://api.github.com/users/aschreck/gists{/gist_id}","starred_url":"https://api.github.com/users/aschreck/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/aschreck/subscriptions","organizations_url":"https://api.github.com/users/aschreck/orgs","repos_url":"https://api.github.com/users/aschreck/repos","events_url":"https://api.github.com/users/aschreck/events{/privacy}","received_events_url":"https://api.github.com/users/aschreck/received_events","type":"User","site_admin":false},"private":false,"html_url":"https://github.com/aschreck/portfolios","description":"Turing
         School promotion portfolios","fork":true,"url":"https://api.github.com/repos/aschreck/portfolios","forks_url":"https://api.github.com/repos/aschreck/portfolios/forks","keys_url":"https://api.github.com/repos/aschreck/portfolios/keys{/key_id}","collaborators_url":"https://api.github.com/repos/aschreck/portfolios/collaborators{/collaborator}","teams_url":"https://api.github.com/repos/aschreck/portfolios/teams","hooks_url":"https://api.github.com/repos/aschreck/portfolios/hooks","issue_events_url":"https://api.github.com/repos/aschreck/portfolios/issues/events{/number}","events_url":"https://api.github.com/repos/aschreck/portfolios/events","assignees_url":"https://api.github.com/repos/aschreck/portfolios/assignees{/user}","branches_url":"https://api.github.com/repos/aschreck/portfolios/branches{/branch}","tags_url":"https://api.github.com/repos/aschreck/portfolios/tags","blobs_url":"https://api.github.com/repos/aschreck/portfolios/git/blobs{/sha}","git_tags_url":"https://api.github.com/repos/aschreck/portfolios/git/tags{/sha}","git_refs_url":"https://api.github.com/repos/aschreck/portfolios/git/refs{/sha}","trees_url":"https://api.github.com/repos/aschreck/portfolios/git/trees{/sha}","statuses_url":"https://api.github.com/repos/aschreck/portfolios/statuses/{sha}","languages_url":"https://api.github.com/repos/aschreck/portfolios/languages","stargazers_url":"https://api.github.com/repos/aschreck/portfolios/stargazers","contributors_url":"https://api.github.com/repos/aschreck/portfolios/contributors","subscribers_url":"https://api.github.com/repos/aschreck/portfolios/subscribers","subscription_url":"https://api.github.com/repos/aschreck/portfolios/subscription","commits_url":"https://api.github.com/repos/aschreck/portfolios/commits{/sha}","git_commits_url":"https://api.github.com/repos/aschreck/portfolios/git/commits{/sha}","comments_url":"https://api.github.com/repos/aschreck/portfolios/comments{/number}","issue_comment_url":"https://api.github.com/repos/aschreck/portfolios/issues/comments{/number}","contents_url":"https://api.github.com/repos/aschreck/portfolios/contents/{+path}","compare_url":"https://api.github.com/repos/aschreck/portfolios/compare/{base}...{head}","merges_url":"https://api.github.com/repos/aschreck/portfolios/merges","archive_url":"https://api.github.com/repos/aschreck/portfolios/{archive_format}{/ref}","downloads_url":"https://api.github.com/repos/aschreck/portfolios/downloads","issues_url":"https://api.github.com/repos/aschreck/portfolios/issues{/number}","pulls_url":"https://api.github.com/repos/aschreck/portfolios/pulls{/number}","milestones_url":"https://api.github.com/repos/aschreck/portfolios/milestones{/number}","notifications_url":"https://api.github.com/repos/aschreck/portfolios/notifications{?since,all,participating}","labels_url":"https://api.github.com/repos/aschreck/portfolios/labels{/name}","releases_url":"https://api.github.com/repos/aschreck/portfolios/releases{/id}","deployments_url":"https://api.github.com/repos/aschreck/portfolios/deployments","created_at":"2017-11-08T18:06:45Z","updated_at":"2017-11-08T18:06:56Z","pushed_at":"2017-11-08T18:30:15Z","git_url":"git://github.com/aschreck/portfolios.git","ssh_url":"git@github.com:aschreck/portfolios.git","clone_url":"https://github.com/aschreck/portfolios.git","svn_url":"https://github.com/aschreck/portfolios","homepage":"","size":37867,"stargazers_count":0,"watchers_count":0,"language":"JavaScript","has_issues":false,"has_projects":true,"has_downloads":true,"has_wiki":true,"has_pages":false,"forks_count":0,"mirror_url":null,"archived":false,"open_issues_count":0,"license":null,"forks":0,"open_issues":0,"watchers":0,"default_branch":"master","permissions":{"admin":true,"push":true,"pull":true}},{"id":108566213,"name":"rails_challenge_2","full_name":"aschreck/rails_challenge_2","owner":{"login":"aschreck","id":29213917,"avatar_url":"https://avatars1.githubusercontent.com/u/29213917?v=4","gravatar_id":"","url":"https://api.github.com/users/aschreck","html_url":"https://github.com/aschreck","followers_url":"https://api.github.com/users/aschreck/followers","following_url":"https://api.github.com/users/aschreck/following{/other_user}","gists_url":"https://api.github.com/users/aschreck/gists{/gist_id}","starred_url":"https://api.github.com/users/aschreck/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/aschreck/subscriptions","organizations_url":"https://api.github.com/users/aschreck/orgs","repos_url":"https://api.github.com/users/aschreck/repos","events_url":"https://api.github.com/users/aschreck/events{/privacy}","received_events_url":"https://api.github.com/users/aschreck/received_events","type":"User","site_admin":false},"private":false,"html_url":"https://github.com/aschreck/rails_challenge_2","description":null,"fork":true,"url":"https://api.github.com/repos/aschreck/rails_challenge_2","forks_url":"https://api.github.com/repos/aschreck/rails_challenge_2/forks","keys_url":"https://api.github.com/repos/aschreck/rails_challenge_2/keys{/key_id}","collaborators_url":"https://api.github.com/repos/aschreck/rails_challenge_2/collaborators{/collaborator}","teams_url":"https://api.github.com/repos/aschreck/rails_challenge_2/teams","hooks_url":"https://api.github.com/repos/aschreck/rails_challenge_2/hooks","issue_events_url":"https://api.github.com/repos/aschreck/rails_challenge_2/issues/events{/number}","events_url":"https://api.github.com/repos/aschreck/rails_challenge_2/events","assignees_url":"https://api.github.com/repos/aschreck/rails_challenge_2/assignees{/user}","branches_url":"https://api.github.com/repos/aschreck/rails_challenge_2/branches{/branch}","tags_url":"https://api.github.com/repos/aschreck/rails_challenge_2/tags","blobs_url":"https://api.github.com/repos/aschreck/rails_challenge_2/git/blobs{/sha}","git_tags_url":"https://api.github.com/repos/aschreck/rails_challenge_2/git/tags{/sha}","git_refs_url":"https://api.github.com/repos/aschreck/rails_challenge_2/git/refs{/sha}","trees_url":"https://api.github.com/repos/aschreck/rails_challenge_2/git/trees{/sha}","statuses_url":"https://api.github.com/repos/aschreck/rails_challenge_2/statuses/{sha}","languages_url":"https://api.github.com/repos/aschreck/rails_challenge_2/languages","stargazers_url":"https://api.github.com/repos/aschreck/rails_challenge_2/stargazers","contributors_url":"https://api.github.com/repos/aschreck/rails_challenge_2/contributors","subscribers_url":"https://api.github.com/repos/aschreck/rails_challenge_2/subscribers","subscription_url":"https://api.github.com/repos/aschreck/rails_challenge_2/subscription","commits_url":"https://api.github.com/repos/aschreck/rails_challenge_2/commits{/sha}","git_commits_url":"https://api.github.com/repos/aschreck/rails_challenge_2/git/commits{/sha}","comments_url":"https://api.github.com/repos/aschreck/rails_challenge_2/comments{/number}","issue_comment_url":"https://api.github.com/repos/aschreck/rails_challenge_2/issues/comments{/number}","contents_url":"https://api.github.com/repos/aschreck/rails_challenge_2/contents/{+path}","compare_url":"https://api.github.com/repos/aschreck/rails_challenge_2/compare/{base}...{head}","merges_url":"https://api.github.com/repos/aschreck/rails_challenge_2/merges","archive_url":"https://api.github.com/repos/aschreck/rails_challenge_2/{archive_format}{/ref}","downloads_url":"https://api.github.com/repos/aschreck/rails_challenge_2/downloads","issues_url":"https://api.github.com/repos/aschreck/rails_challenge_2/issues{/number}","pulls_url":"https://api.github.com/repos/aschreck/rails_challenge_2/pulls{/number}","milestones_url":"https://api.github.com/repos/aschreck/rails_challenge_2/milestones{/number}","notifications_url":"https://api.github.com/repos/aschreck/rails_challenge_2/notifications{?since,all,participating}","labels_url":"https://api.github.com/repos/aschreck/rails_challenge_2/labels{/name}","releases_url":"https://api.github.com/repos/aschreck/rails_challenge_2/releases{/id}","deployments_url":"https://api.github.com/repos/aschreck/rails_challenge_2/deployments","created_at":"2017-10-27T16:00:34Z","updated_at":"2017-10-27T16:00:36Z","pushed_at":"2017-10-27T16:59:39Z","git_url":"git://github.com/aschreck/rails_challenge_2.git","ssh_url":"git@github.com:aschreck/rails_challenge_2.git","clone_url":"https://github.com/aschreck/rails_challenge_2.git","svn_url":"https://github.com/aschreck/rails_challenge_2","homepage":null,"size":29,"stargazers_count":0,"watchers_count":0,"language":"Ruby","has_issues":false,"has_projects":true,"has_downloads":true,"has_wiki":true,"has_pages":false,"forks_count":0,"mirror_url":null,"archived":false,"open_issues_count":0,"license":null,"forks":0,"open_issues":0,"watchers":0,"default_branch":"master","permissions":{"admin":true,"push":true,"pull":true}},{"id":112258799,"name":"rales_engine","full_name":"aschreck/rales_engine","owner":{"login":"aschreck","id":29213917,"avatar_url":"https://avatars1.githubusercontent.com/u/29213917?v=4","gravatar_id":"","url":"https://api.github.com/users/aschreck","html_url":"https://github.com/aschreck","followers_url":"https://api.github.com/users/aschreck/followers","following_url":"https://api.github.com/users/aschreck/following{/other_user}","gists_url":"https://api.github.com/users/aschreck/gists{/gist_id}","starred_url":"https://api.github.com/users/aschreck/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/aschreck/subscriptions","organizations_url":"https://api.github.com/users/aschreck/orgs","repos_url":"https://api.github.com/users/aschreck/repos","events_url":"https://api.github.com/users/aschreck/events{/privacy}","received_events_url":"https://api.github.com/users/aschreck/received_events","type":"User","site_admin":false},"private":false,"html_url":"https://github.com/aschreck/rales_engine","description":null,"fork":false,"url":"https://api.github.com/repos/aschreck/rales_engine","forks_url":"https://api.github.com/repos/aschreck/rales_engine/forks","keys_url":"https://api.github.com/repos/aschreck/rales_engine/keys{/key_id}","collaborators_url":"https://api.github.com/repos/aschreck/rales_engine/collaborators{/collaborator}","teams_url":"https://api.github.com/repos/aschreck/rales_engine/teams","hooks_url":"https://api.github.com/repos/aschreck/rales_engine/hooks","issue_events_url":"https://api.github.com/repos/aschreck/rales_engine/issues/events{/number}","events_url":"https://api.github.com/repos/aschreck/rales_engine/events","assignees_url":"https://api.github.com/repos/aschreck/rales_engine/assignees{/user}","branches_url":"https://api.github.com/repos/aschreck/rales_engine/branches{/branch}","tags_url":"https://api.github.com/repos/aschreck/rales_engine/tags","blobs_url":"https://api.github.com/repos/aschreck/rales_engine/git/blobs{/sha}","git_tags_url":"https://api.github.com/repos/aschreck/rales_engine/git/tags{/sha}","git_refs_url":"https://api.github.com/repos/aschreck/rales_engine/git/refs{/sha}","trees_url":"https://api.github.com/repos/aschreck/rales_engine/git/trees{/sha}","statuses_url":"https://api.github.com/repos/aschreck/rales_engine/statuses/{sha}","languages_url":"https://api.github.com/repos/aschreck/rales_engine/languages","stargazers_url":"https://api.github.com/repos/aschreck/rales_engine/stargazers","contributors_url":"https://api.github.com/repos/aschreck/rales_engine/contributors","subscribers_url":"https://api.github.com/repos/aschreck/rales_engine/subscribers","subscription_url":"https://api.github.com/repos/aschreck/rales_engine/subscription","commits_url":"https://api.github.com/repos/aschreck/rales_engine/commits{/sha}","git_commits_url":"https://api.github.com/repos/aschreck/rales_engine/git/commits{/sha}","comments_url":"https://api.github.com/repos/aschreck/rales_engine/comments{/number}","issue_comment_url":"https://api.github.com/repos/aschreck/rales_engine/issues/comments{/number}","contents_url":"https://api.github.com/repos/aschreck/rales_engine/contents/{+path}","compare_url":"https://api.github.com/repos/aschreck/rales_engine/compare/{base}...{head}","merges_url":"https://api.github.com/repos/aschreck/rales_engine/merges","archive_url":"https://api.github.com/repos/aschreck/rales_engine/{archive_format}{/ref}","downloads_url":"https://api.github.com/repos/aschreck/rales_engine/downloads","issues_url":"https://api.github.com/repos/aschreck/rales_engine/issues{/number}","pulls_url":"https://api.github.com/repos/aschreck/rales_engine/pulls{/number}","milestones_url":"https://api.github.com/repos/aschreck/rales_engine/milestones{/number}","notifications_url":"https://api.github.com/repos/aschreck/rales_engine/notifications{?since,all,participating}","labels_url":"https://api.github.com/repos/aschreck/rales_engine/labels{/name}","releases_url":"https://api.github.com/repos/aschreck/rales_engine/releases{/id}","deployments_url":"https://api.github.com/repos/aschreck/rales_engine/deployments","created_at":"2017-11-27T23:00:00Z","updated_at":"2017-12-01T03:28:42Z","pushed_at":"2017-12-01T17:27:43Z","git_url":"git://github.com/aschreck/rales_engine.git","ssh_url":"git@github.com:aschreck/rales_engine.git","clone_url":"https://github.com/aschreck/rales_engine.git","svn_url":"https://github.com/aschreck/rales_engine","homepage":null,"size":799,"stargazers_count":0,"watchers_count":0,"language":"HTML","has_issues":true,"has_projects":true,"has_downloads":true,"has_wiki":true,"has_pages":false,"forks_count":0,"mirror_url":null,"archived":false,"open_issues_count":2,"license":null,"forks":0,"open_issues":2,"watchers":0,"default_branch":"master","permissions":{"admin":true,"push":true,"pull":true}},{"id":103414371,"name":"reunion","full_name":"aschreck/reunion","owner":{"login":"aschreck","id":29213917,"avatar_url":"https://avatars1.githubusercontent.com/u/29213917?v=4","gravatar_id":"","url":"https://api.github.com/users/aschreck","html_url":"https://github.com/aschreck","followers_url":"https://api.github.com/users/aschreck/followers","following_url":"https://api.github.com/users/aschreck/following{/other_user}","gists_url":"https://api.github.com/users/aschreck/gists{/gist_id}","starred_url":"https://api.github.com/users/aschreck/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/aschreck/subscriptions","organizations_url":"https://api.github.com/users/aschreck/orgs","repos_url":"https://api.github.com/users/aschreck/repos","events_url":"https://api.github.com/users/aschreck/events{/privacy}","received_events_url":"https://api.github.com/users/aschreck/received_events","type":"User","site_admin":false},"private":false,"html_url":"https://github.com/aschreck/reunion","description":null,"fork":true,"url":"https://api.github.com/repos/aschreck/reunion","forks_url":"https://api.github.com/repos/aschreck/reunion/forks","keys_url":"https://api.github.com/repos/aschreck/reunion/keys{/key_id}","collaborators_url":"https://api.github.com/repos/aschreck/reunion/collaborators{/collaborator}","teams_url":"https://api.github.com/repos/aschreck/reunion/teams","hooks_url":"https://api.github.com/repos/aschreck/reunion/hooks","issue_events_url":"https://api.github.com/repos/aschreck/reunion/issues/events{/number}","events_url":"https://api.github.com/repos/aschreck/reunion/events","assignees_url":"https://api.github.com/repos/aschreck/reunion/assignees{/user}","branches_url":"https://api.github.com/repos/aschreck/reunion/branches{/branch}","tags_url":"https://api.github.com/repos/aschreck/reunion/tags","blobs_url":"https://api.github.com/repos/aschreck/reunion/git/blobs{/sha}","git_tags_url":"https://api.github.com/repos/aschreck/reunion/git/tags{/sha}","git_refs_url":"https://api.github.com/repos/aschreck/reunion/git/refs{/sha}","trees_url":"https://api.github.com/repos/aschreck/reunion/git/trees{/sha}","statuses_url":"https://api.github.com/repos/aschreck/reunion/statuses/{sha}","languages_url":"https://api.github.com/repos/aschreck/reunion/languages","stargazers_url":"https://api.github.com/repos/aschreck/reunion/stargazers","contributors_url":"https://api.github.com/repos/aschreck/reunion/contributors","subscribers_url":"https://api.github.com/repos/aschreck/reunion/subscribers","subscription_url":"https://api.github.com/repos/aschreck/reunion/subscription","commits_url":"https://api.github.com/repos/aschreck/reunion/commits{/sha}","git_commits_url":"https://api.github.com/repos/aschreck/reunion/git/commits{/sha}","comments_url":"https://api.github.com/repos/aschreck/reunion/comments{/number}","issue_comment_url":"https://api.github.com/repos/aschreck/reunion/issues/comments{/number}","contents_url":"https://api.github.com/repos/aschreck/reunion/contents/{+path}","compare_url":"https://api.github.com/repos/aschreck/reunion/compare/{base}...{head}","merges_url":"https://api.github.com/repos/aschreck/reunion/merges","archive_url":"https://api.github.com/repos/aschreck/reunion/{archive_format}{/ref}","downloads_url":"https://api.github.com/repos/aschreck/reunion/downloads","issues_url":"https://api.github.com/repos/aschreck/reunion/issues{/number}","pulls_url":"https://api.github.com/repos/aschreck/reunion/pulls{/number}","milestones_url":"https://api.github.com/repos/aschreck/reunion/milestones{/number}","notifications_url":"https://api.github.com/repos/aschreck/reunion/notifications{?since,all,participating}","labels_url":"https://api.github.com/repos/aschreck/reunion/labels{/name}","releases_url":"https://api.github.com/repos/aschreck/reunion/releases{/id}","deployments_url":"https://api.github.com/repos/aschreck/reunion/deployments","created_at":"2017-09-13T15:03:55Z","updated_at":"2017-11-01T14:50:42Z","pushed_at":"2017-09-13T15:59:07Z","git_url":"git://github.com/aschreck/reunion.git","ssh_url":"git@github.com:aschreck/reunion.git","clone_url":"https://github.com/aschreck/reunion.git","svn_url":"https://github.com/aschreck/reunion","homepage":null,"size":7,"stargazers_count":0,"watchers_count":0,"language":"Ruby","has_issues":false,"has_projects":true,"has_downloads":true,"has_wiki":true,"has_pages":false,"forks_count":0,"mirror_url":null,"archived":false,"open_issues_count":0,"license":null,"forks":0,"open_issues":0,"watchers":0,"default_branch":"master","permissions":{"admin":true,"push":true,"pull":true}}]'
     http_version: 
-  recorded_at: Thu, 07 Dec 2017 21:44:04 GMT
+  recorded_at: Fri, 08 Dec 2017 02:36:09 GMT
 - request:
     method: get
     uri: https://api.github.com/users/aschreck/starred?access_token=086a3d557131bd9bac9355c9516831fe92c835a4
@@ -471,7 +471,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Thu, 07 Dec 2017 21:44:04 GMT
+      - Fri, 08 Dec 2017 02:36:10 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -481,9 +481,9 @@ http_interactions:
       X-Ratelimit-Limit:
       - '5000'
       X-Ratelimit-Remaining:
-      - '4972'
+      - '4993'
       X-Ratelimit-Reset:
-      - '1512684091'
+      - '1512704168'
       Cache-Control:
       - private, max-age=60, s-maxage=60
       Vary:
@@ -514,12 +514,156 @@ http_interactions:
       X-Xss-Protection:
       - 1; mode=block
       X-Runtime-Rack:
-      - '0.072494'
+      - '0.058079'
       X-Github-Request-Id:
-      - D138:31AF:C5A8DE:193ABFE:5A29B624
+      - D6AD:05B8:D52287:1A078DB:5A29FA99
     body:
       encoding: ASCII-8BIT
       string: '[{"id":97020707,"name":"house-salad","full_name":"jmejia/house-salad","owner":{"login":"jmejia","id":73824,"avatar_url":"https://avatars0.githubusercontent.com/u/73824?v=4","gravatar_id":"","url":"https://api.github.com/users/jmejia","html_url":"https://github.com/jmejia","followers_url":"https://api.github.com/users/jmejia/followers","following_url":"https://api.github.com/users/jmejia/following{/other_user}","gists_url":"https://api.github.com/users/jmejia/gists{/gist_id}","starred_url":"https://api.github.com/users/jmejia/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/jmejia/subscriptions","organizations_url":"https://api.github.com/users/jmejia/orgs","repos_url":"https://api.github.com/users/jmejia/repos","events_url":"https://api.github.com/users/jmejia/events{/privacy}","received_events_url":"https://api.github.com/users/jmejia/received_events","type":"User","site_admin":false},"private":false,"html_url":"https://github.com/jmejia/house-salad","description":null,"fork":false,"url":"https://api.github.com/repos/jmejia/house-salad","forks_url":"https://api.github.com/repos/jmejia/house-salad/forks","keys_url":"https://api.github.com/repos/jmejia/house-salad/keys{/key_id}","collaborators_url":"https://api.github.com/repos/jmejia/house-salad/collaborators{/collaborator}","teams_url":"https://api.github.com/repos/jmejia/house-salad/teams","hooks_url":"https://api.github.com/repos/jmejia/house-salad/hooks","issue_events_url":"https://api.github.com/repos/jmejia/house-salad/issues/events{/number}","events_url":"https://api.github.com/repos/jmejia/house-salad/events","assignees_url":"https://api.github.com/repos/jmejia/house-salad/assignees{/user}","branches_url":"https://api.github.com/repos/jmejia/house-salad/branches{/branch}","tags_url":"https://api.github.com/repos/jmejia/house-salad/tags","blobs_url":"https://api.github.com/repos/jmejia/house-salad/git/blobs{/sha}","git_tags_url":"https://api.github.com/repos/jmejia/house-salad/git/tags{/sha}","git_refs_url":"https://api.github.com/repos/jmejia/house-salad/git/refs{/sha}","trees_url":"https://api.github.com/repos/jmejia/house-salad/git/trees{/sha}","statuses_url":"https://api.github.com/repos/jmejia/house-salad/statuses/{sha}","languages_url":"https://api.github.com/repos/jmejia/house-salad/languages","stargazers_url":"https://api.github.com/repos/jmejia/house-salad/stargazers","contributors_url":"https://api.github.com/repos/jmejia/house-salad/contributors","subscribers_url":"https://api.github.com/repos/jmejia/house-salad/subscribers","subscription_url":"https://api.github.com/repos/jmejia/house-salad/subscription","commits_url":"https://api.github.com/repos/jmejia/house-salad/commits{/sha}","git_commits_url":"https://api.github.com/repos/jmejia/house-salad/git/commits{/sha}","comments_url":"https://api.github.com/repos/jmejia/house-salad/comments{/number}","issue_comment_url":"https://api.github.com/repos/jmejia/house-salad/issues/comments{/number}","contents_url":"https://api.github.com/repos/jmejia/house-salad/contents/{+path}","compare_url":"https://api.github.com/repos/jmejia/house-salad/compare/{base}...{head}","merges_url":"https://api.github.com/repos/jmejia/house-salad/merges","archive_url":"https://api.github.com/repos/jmejia/house-salad/{archive_format}{/ref}","downloads_url":"https://api.github.com/repos/jmejia/house-salad/downloads","issues_url":"https://api.github.com/repos/jmejia/house-salad/issues{/number}","pulls_url":"https://api.github.com/repos/jmejia/house-salad/pulls{/number}","milestones_url":"https://api.github.com/repos/jmejia/house-salad/milestones{/number}","notifications_url":"https://api.github.com/repos/jmejia/house-salad/notifications{?since,all,participating}","labels_url":"https://api.github.com/repos/jmejia/house-salad/labels{/name}","releases_url":"https://api.github.com/repos/jmejia/house-salad/releases{/id}","deployments_url":"https://api.github.com/repos/jmejia/house-salad/deployments","created_at":"2017-07-12T14:59:52Z","updated_at":"2017-12-06T03:24:40Z","pushed_at":"2017-07-12T17:25:16Z","git_url":"git://github.com/jmejia/house-salad.git","ssh_url":"git@github.com:jmejia/house-salad.git","clone_url":"https://github.com/jmejia/house-salad.git","svn_url":"https://github.com/jmejia/house-salad","homepage":null,"size":20,"stargazers_count":1,"watchers_count":1,"language":"Ruby","has_issues":true,"has_projects":true,"has_downloads":true,"has_wiki":true,"has_pages":false,"forks_count":16,"mirror_url":null,"archived":false,"open_issues_count":1,"license":null,"forks":16,"open_issues":1,"watchers":1,"default_branch":"master","permissions":{"admin":false,"push":false,"pull":true}}]'
     http_version: 
-  recorded_at: Thu, 07 Dec 2017 21:44:04 GMT
+  recorded_at: Fri, 08 Dec 2017 02:36:10 GMT
+- request:
+    method: get
+    uri: https://api.github.com/repos/aschreck/rales_engine/stats/commit_activity?access_token=086a3d557131bd9bac9355c9516831fe92c835a4
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.13.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - GitHub.com
+      Date:
+      - Fri, 08 Dec 2017 02:36:38 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Status:
+      - 200 OK
+      X-Ratelimit-Limit:
+      - '5000'
+      X-Ratelimit-Remaining:
+      - '4992'
+      X-Ratelimit-Reset:
+      - '1512704168'
+      Cache-Control:
+      - private, max-age=60, s-maxage=60
+      Vary:
+      - Accept, Authorization, Cookie, X-GitHub-OTP
+      Etag:
+      - W/"a5544fccf1e98631ea9858a824dade69"
+      X-Oauth-Scopes:
+      - repo
+      X-Accepted-Oauth-Scopes:
+      - ''
+      X-Oauth-Client-Id:
+      - f0951aa9d7b39e0ffcfe
+      X-Github-Media-Type:
+      - github.v3; format=json
+      Access-Control-Expose-Headers:
+      - ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining,
+        X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Security-Policy:
+      - default-src 'none'
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains; preload
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - deny
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Runtime-Rack:
+      - '0.029627'
+      X-Github-Request-Id:
+      - D6AE:05B8:D52DF8:1A08D14:5A29FAB6
+    body:
+      encoding: ASCII-8BIT
+      string: '[{"days":[0,0,0,0,0,0,0],"total":0,"week":1481414400},{"days":[0,0,0,0,0,0,0],"total":0,"week":1482019200},{"days":[0,0,0,0,0,0,0],"total":0,"week":1482624000},{"days":[0,0,0,0,0,0,0],"total":0,"week":1483228800},{"days":[0,0,0,0,0,0,0],"total":0,"week":1483833600},{"days":[0,0,0,0,0,0,0],"total":0,"week":1484438400},{"days":[0,0,0,0,0,0,0],"total":0,"week":1485043200},{"days":[0,0,0,0,0,0,0],"total":0,"week":1485648000},{"days":[0,0,0,0,0,0,0],"total":0,"week":1486252800},{"days":[0,0,0,0,0,0,0],"total":0,"week":1486857600},{"days":[0,0,0,0,0,0,0],"total":0,"week":1487462400},{"days":[0,0,0,0,0,0,0],"total":0,"week":1488067200},{"days":[0,0,0,0,0,0,0],"total":0,"week":1488672000},{"days":[0,0,0,0,0,0,0],"total":0,"week":1489276800},{"days":[0,0,0,0,0,0,0],"total":0,"week":1489878000},{"days":[0,0,0,0,0,0,0],"total":0,"week":1490482800},{"days":[0,0,0,0,0,0,0],"total":0,"week":1491087600},{"days":[0,0,0,0,0,0,0],"total":0,"week":1491692400},{"days":[0,0,0,0,0,0,0],"total":0,"week":1492297200},{"days":[0,0,0,0,0,0,0],"total":0,"week":1492902000},{"days":[0,0,0,0,0,0,0],"total":0,"week":1493506800},{"days":[0,0,0,0,0,0,0],"total":0,"week":1494111600},{"days":[0,0,0,0,0,0,0],"total":0,"week":1494716400},{"days":[0,0,0,0,0,0,0],"total":0,"week":1495321200},{"days":[0,0,0,0,0,0,0],"total":0,"week":1495926000},{"days":[0,0,0,0,0,0,0],"total":0,"week":1496530800},{"days":[0,0,0,0,0,0,0],"total":0,"week":1497135600},{"days":[0,0,0,0,0,0,0],"total":0,"week":1497740400},{"days":[0,0,0,0,0,0,0],"total":0,"week":1498345200},{"days":[0,0,0,0,0,0,0],"total":0,"week":1498950000},{"days":[0,0,0,0,0,0,0],"total":0,"week":1499554800},{"days":[0,0,0,0,0,0,0],"total":0,"week":1500159600},{"days":[0,0,0,0,0,0,0],"total":0,"week":1500764400},{"days":[0,0,0,0,0,0,0],"total":0,"week":1501369200},{"days":[0,0,0,0,0,0,0],"total":0,"week":1501974000},{"days":[0,0,0,0,0,0,0],"total":0,"week":1502578800},{"days":[0,0,0,0,0,0,0],"total":0,"week":1503183600},{"days":[0,0,0,0,0,0,0],"total":0,"week":1503788400},{"days":[0,0,0,0,0,0,0],"total":0,"week":1504393200},{"days":[0,0,0,0,0,0,0],"total":0,"week":1504998000},{"days":[0,0,0,0,0,0,0],"total":0,"week":1505602800},{"days":[0,0,0,0,0,0,0],"total":0,"week":1506207600},{"days":[0,0,0,0,0,0,0],"total":0,"week":1506812400},{"days":[0,0,0,0,0,0,0],"total":0,"week":1507417200},{"days":[0,0,0,0,0,0,0],"total":0,"week":1508022000},{"days":[0,0,0,0,0,0,0],"total":0,"week":1508626800},{"days":[0,0,0,0,0,0,0],"total":0,"week":1509231600},{"days":[0,0,0,0,0,0,0],"total":0,"week":1509836400},{"days":[0,0,0,0,0,0,0],"total":0,"week":1510444800},{"days":[0,0,0,0,0,0,0],"total":0,"week":1511049600},{"days":[0,12,10,5,23,3,0],"total":53,"week":1511654400},{"days":[0,0,0,0,0,0,0],"total":0,"week":1512259200}]'
+    http_version: 
+  recorded_at: Fri, 08 Dec 2017 02:36:38 GMT
+- request:
+    method: get
+    uri: https://api.github.com/repos/aschreck/rales_engine/stats/commit_activity?access_token=086a3d557131bd9bac9355c9516831fe92c835a4
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.13.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - GitHub.com
+      Date:
+      - Fri, 08 Dec 2017 02:36:56 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Status:
+      - 200 OK
+      X-Ratelimit-Limit:
+      - '5000'
+      X-Ratelimit-Remaining:
+      - '4991'
+      X-Ratelimit-Reset:
+      - '1512704168'
+      Cache-Control:
+      - private, max-age=60, s-maxage=60
+      Vary:
+      - Accept, Authorization, Cookie, X-GitHub-OTP
+      Etag:
+      - W/"a5544fccf1e98631ea9858a824dade69"
+      X-Oauth-Scopes:
+      - repo
+      X-Accepted-Oauth-Scopes:
+      - ''
+      X-Oauth-Client-Id:
+      - f0951aa9d7b39e0ffcfe
+      X-Github-Media-Type:
+      - github.v3; format=json
+      Access-Control-Expose-Headers:
+      - ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining,
+        X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Security-Policy:
+      - default-src 'none'
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains; preload
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - deny
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Runtime-Rack:
+      - '0.034865'
+      X-Github-Request-Id:
+      - D6AF:05B8:D533D4:1A097E6:5A29FAC8
+    body:
+      encoding: ASCII-8BIT
+      string: '[{"days":[0,0,0,0,0,0,0],"total":0,"week":1481414400},{"days":[0,0,0,0,0,0,0],"total":0,"week":1482019200},{"days":[0,0,0,0,0,0,0],"total":0,"week":1482624000},{"days":[0,0,0,0,0,0,0],"total":0,"week":1483228800},{"days":[0,0,0,0,0,0,0],"total":0,"week":1483833600},{"days":[0,0,0,0,0,0,0],"total":0,"week":1484438400},{"days":[0,0,0,0,0,0,0],"total":0,"week":1485043200},{"days":[0,0,0,0,0,0,0],"total":0,"week":1485648000},{"days":[0,0,0,0,0,0,0],"total":0,"week":1486252800},{"days":[0,0,0,0,0,0,0],"total":0,"week":1486857600},{"days":[0,0,0,0,0,0,0],"total":0,"week":1487462400},{"days":[0,0,0,0,0,0,0],"total":0,"week":1488067200},{"days":[0,0,0,0,0,0,0],"total":0,"week":1488672000},{"days":[0,0,0,0,0,0,0],"total":0,"week":1489276800},{"days":[0,0,0,0,0,0,0],"total":0,"week":1489878000},{"days":[0,0,0,0,0,0,0],"total":0,"week":1490482800},{"days":[0,0,0,0,0,0,0],"total":0,"week":1491087600},{"days":[0,0,0,0,0,0,0],"total":0,"week":1491692400},{"days":[0,0,0,0,0,0,0],"total":0,"week":1492297200},{"days":[0,0,0,0,0,0,0],"total":0,"week":1492902000},{"days":[0,0,0,0,0,0,0],"total":0,"week":1493506800},{"days":[0,0,0,0,0,0,0],"total":0,"week":1494111600},{"days":[0,0,0,0,0,0,0],"total":0,"week":1494716400},{"days":[0,0,0,0,0,0,0],"total":0,"week":1495321200},{"days":[0,0,0,0,0,0,0],"total":0,"week":1495926000},{"days":[0,0,0,0,0,0,0],"total":0,"week":1496530800},{"days":[0,0,0,0,0,0,0],"total":0,"week":1497135600},{"days":[0,0,0,0,0,0,0],"total":0,"week":1497740400},{"days":[0,0,0,0,0,0,0],"total":0,"week":1498345200},{"days":[0,0,0,0,0,0,0],"total":0,"week":1498950000},{"days":[0,0,0,0,0,0,0],"total":0,"week":1499554800},{"days":[0,0,0,0,0,0,0],"total":0,"week":1500159600},{"days":[0,0,0,0,0,0,0],"total":0,"week":1500764400},{"days":[0,0,0,0,0,0,0],"total":0,"week":1501369200},{"days":[0,0,0,0,0,0,0],"total":0,"week":1501974000},{"days":[0,0,0,0,0,0,0],"total":0,"week":1502578800},{"days":[0,0,0,0,0,0,0],"total":0,"week":1503183600},{"days":[0,0,0,0,0,0,0],"total":0,"week":1503788400},{"days":[0,0,0,0,0,0,0],"total":0,"week":1504393200},{"days":[0,0,0,0,0,0,0],"total":0,"week":1504998000},{"days":[0,0,0,0,0,0,0],"total":0,"week":1505602800},{"days":[0,0,0,0,0,0,0],"total":0,"week":1506207600},{"days":[0,0,0,0,0,0,0],"total":0,"week":1506812400},{"days":[0,0,0,0,0,0,0],"total":0,"week":1507417200},{"days":[0,0,0,0,0,0,0],"total":0,"week":1508022000},{"days":[0,0,0,0,0,0,0],"total":0,"week":1508626800},{"days":[0,0,0,0,0,0,0],"total":0,"week":1509231600},{"days":[0,0,0,0,0,0,0],"total":0,"week":1509836400},{"days":[0,0,0,0,0,0,0],"total":0,"week":1510444800},{"days":[0,0,0,0,0,0,0],"total":0,"week":1511049600},{"days":[0,12,10,5,23,3,0],"total":53,"week":1511654400},{"days":[0,0,0,0,0,0,0],"total":0,"week":1512259200}]'
+    http_version: 
+  recorded_at: Fri, 08 Dec 2017 02:36:56 GMT
 recorded_with: VCR 4.0.0
