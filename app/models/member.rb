@@ -2,7 +2,7 @@ require './app/services/github_service.rb'
 
 class Member
 
-	attr_reader :name, :nickname, :email, :followers, :following, :repos
+	attr_reader :name, :nickname, :email, :token, :followers, :following, :repos, :starred_repos
 
   def initialize(attrs = {})
 		@name      = attrs[:name]
@@ -15,30 +15,38 @@ class Member
   end 
 
 
-	def self.create_member
-		#return a member object with basic information 
-		parsed_json = github.member_data
+	def self.create_member(token)
+		parsed_json = github(token).member_data
 		member = Member.new(parsed_json)
-		member.add_followers
+		member.add_followers(token)
 		member
 	end
 	
-	def add_followers
-		@followers = self.github.get_followers
+	def add_followers(token)
+		@followers = self.github(token).get_followers
 		
-		@following = self.github.get_following
+		@following = self.github(token).get_following
 	end 	
 
-	def add_repos
-		@repos = github.get_repos
+	def add_repos(token)
+		@repos = github(token).get_repos
 	end 
 
-		def github
-			GithubService.new 
+	def add_starred_repos(token)
+		@starred_repos = github(token).get_starred_repos
+	end 
+
+	def add_commits(token, repos)
+		@commits = github(token).get_commits(repos)
+	end
+
+	
+		def github(token)
+			GithubService.new(token)
 		end 
 
-		def self.github
-			GithubService.new 
+		def self.github(token)
+			GithubService.new(token) 
 		end 
 
 end 

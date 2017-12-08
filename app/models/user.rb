@@ -11,4 +11,10 @@ class User < ApplicationRecord
     user.save
     user
   end 
+
+  def self.verify_current_token (user, auth)
+    unless user.token == auth[:credentials][:token]
+      user.update(token: auth[:credentials][:token])
+    end 
+  end 
 end

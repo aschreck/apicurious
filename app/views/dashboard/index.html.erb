@@ -12,21 +12,37 @@
 <h1 class="name"> Welcome <%=@member.nickname%></h1>
 <h1> Followers: </h1>
 <% @member.followers.each do |follower|%>
-  <p><%=follower[0]%></p>
+  <p class="follower"><%=follower[0]%></p>
   <img src=<%= follower[1] %> height="40" width= "40">
 <% end %>
 
 <h1> Following: </h1>
 <% @member.following.each do |leader|%>
-  <p><%=leader[0]%></p>
+  <p class="following"<%=leader[0]%></p>
   <img src=<%= leader[1] %> height="40" width= "40">
 <% end %>
 <img src=''> 
+
+<h1> Starred Repositories: </h1>
+
+<ul>
+  <%@member.starred_repos.each do |repo| %>
+    <li class="starred-repos"><%= repo.name%></li>
+  <% end %>
+</ul>
 
 <h1> Repositories: </h1>
 
 <ul>
   <%@member.repos.each do |repo| %>
-    <li><%= repo.name%></li>
+    <li class="repos"><%= repo.name%></li>
+  <% end %>
+</ul>
+
+<h1> Recent Commits: </h1>
+		
+<ul>
+  <%@member.commits.each do |commit| %>
+    <li class="commits"><%=commit.date%><%= commit.message%></li>
   <% end %>
 </ul>

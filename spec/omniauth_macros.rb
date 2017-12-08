@@ -12,7 +12,7 @@ module OmniauthMacros
         "image"=>"https://avatars2.githubusercontent.com/u/22850330?v=4",
         "urls"=>
         {"GitHub"=>"https://github.com/aschreck", "Blog"=>""}},
-        "credentials"=>{"token"=>"aa323e94fae7af3610f349a6075c63575d3acc64", "expires"=>false},
+        "credentials"=>{"token"=>ENV["TOKEN"], "expires"=>false},
         "extra"=>
         {"raw_info"=>
           {"login"=>"aschreck"
